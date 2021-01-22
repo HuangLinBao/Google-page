@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* for the google page container st*/
+
+
+.googleContainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* for the google page container ed */
+
+/* for header st*/
+.googleContainer header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.googleContainer header{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.googleContainer header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.googleContainer header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+/* apps button st */
+    .googleContainer header ul li .apps{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 40vmin;
+        border-style: none;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    .googleContainer header ul li .apps ul li{
+        display: inline;
+        margin-left: 0;
+    }
+    
+    .googleContainer header ul li .apps:hover{
+        background-color: #ccc;
+    }
+
+    
+/* apps button ed */
+
+
+/* account button st */
+.googleContainer header ul li .account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 40vmin;
+    border-style: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.googleContainer header ul li .account img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40vmin;
+}
+
+.googleContainer header ul li .account:hover{
+    background-color: #ccc;
+}
+/* account button ed */
+
+
+
+/* for header ed */
+
+/* main body st */
+.googleContainer main ul li{
+    list-style: none;
+}
+.googleContainer main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.googleContainer main .searchBox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.googleContainer main .searchBox .googleImage {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   margin-bottom: 20px;
+}
+.googleContainer main .searchBox .googleImage img{
+    width: 272px;
+    height: 92px;
+}
+.googleContainer main .searchBox .searchField input{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.googleContainer main .searchBox .searchField i{
+    position: absolute;
+    top: 117px;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    pointer-events: none;
+    color: darkgrey;
+}
+
+.googleContainer main .buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.googleContainer main .buttons ul li{
+    display: inline-block;
+}
+.googleContainer main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.googleContainer main .buttons ul li button:hover{
+    border: 1px solid #ccc;
+}
+
+.googleContainer main .langauges{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.googleContainer main .langauges ul li{
+    display: inline;
+    margin: 0 5px;
+}
+.googleContainer main .langauges ul li a{
+    text-decoration: none;
+}
+.googleContainer main .langauges ul li a:hover{
+    text-decoration: underline;
+}
+/* main body ed */
+
+/* footer st */
+.googleContainer footer ul li{
+    list-style: none;
+}
+.googleContainer footer ul li a{
+    text-decoration: none;
+    color: #5f6368;
+}
+.googleContainer footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.googleContainer footer .row{
+    padding: 15px 25px;
+}
+.googleContainer footer .row.country{
+    color: #5f6368
+}
+
+.googleContainer footer .row.lists{
+    border-top: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+} 
+.googleContainer footer .row.lists ul{
+    display: flex;
+}  
+.googleContainer footer .row.lists ul li a{
+    font-size: 14px;
+    margin-right: 25px;
+}
+.googleContainer footer .row.lists ul li a:hover{
+    text-decoration: underline;
+}
+/* footer ed */
